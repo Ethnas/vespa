@@ -94,7 +94,6 @@ export default function QueryInputChild({ id }) {
   const inputList = childArray.map((child) => {
     return (
       <div key={child.id} id={child.id}>
-        {child.id == '4.1' && console.log(child.type)}
         <QueryDropdownForm
           choices={childMap[currentTypes]}
           id={child.id}
